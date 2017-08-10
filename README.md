@@ -29,20 +29,20 @@ Contains all segmentation methods researched.
 	-BSR_code:
 		use example.m located in 'grouping' directory.
 		
-	-Contourresults: 
+-Contourresults: 
 		2 images with segementation results from two patches shown in 'data' directory (image S15-6200-D2-01A)
 
-	-Original_methods: 
+-Original_methods: 
 	Contains original, untainted, segmentation scripts.
 		
-	-RegionScalableEnergy, Bipartite_code.zip, and Contour_detection_code.zip: 
+-RegionScalableEnergy, Bipartite_code.zip, and Contour_detection_code.zip: 
 		Original scripts. The original script for chan vese is located on the server. I did not get to implement the code in RegionScalableEnergy. 
 
 -sfm_local_chanvese:
 	-chanveseresults:
 		Two images of chanveseresults.. Chanvese method requires mask image to approximate segmentation region.
 
-		-Main function is sfm_local_chanvese.m. 
+	-Main function is sfm_local_chanvese.m. 
 		
 
 If you have questions you may contact me at any time by email: smschnei@buffalo.edu or telephone : 518-728-1071.

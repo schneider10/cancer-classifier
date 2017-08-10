@@ -42,7 +42,7 @@ Contains all segmentation methods researched.
 	-chanveseresults:
 		Two images of chanveseresults.. Chanvese method requires mask image to approximate segmentation region.
 
-	-Main function is sfm_local_chanvese.m. 
+-Main function is sfm_local_chanvese.m. 
 		
 
 If you have questions you may contact me at any time by email: smschnei@buffalo.edu or telephone : 518-728-1071.

@@ -1,0 +1,28 @@
+#!/bin/sh
+
+
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem=23000
+
+#SBATCH --job-name="fullimageseg"
+#SBATCH --output=fullimageseg.out 
+#SBATCH --mail-user=smschnei@buffalo.edu
+#SBATCH --mail-type=END
+#SBATCH --error=fullimageseg.err
+
+echo "SLURM_JOBID="$SLURM_JOBID
+echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST
+echo "SLURM_NNODES"=$SLURM_NNODES
+echo "SLURMTMPDIR="$SLURMTMPDIR 
+
+echo "working directory = "$SLURM_SUBMIT_DIR
+module load matlab/R2014b
+module load intel
+module list
+ulimit -s unlimited 
+#
+echo "Launch MATLAB" 
+matlab <fullsizeim.m
+#
+echo "All Done!"

@@ -5,7 +5,7 @@ This directory consists of the following:
 
 batchscript.txt: An example of a batch script to run script on the CCR may be useful to graduate students.
 
-bayesdetectionperf.m: Main script for Naive Bayes classification of tissue images with crossvalidation and ROC validation/evaluation.
+bayesdetectionperf.m: Main script for naïve Bayes classification of tissue images with crossvalidation and ROC validation/evaluation.
 The other scripts are dependencies to this script.
 
 

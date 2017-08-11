@@ -9,4 +9,4 @@ bayesdetectionperf.m: Main script for Naive Bayes classification of tissue image
 The other scripts are dependencies to this script.
 
 
-If you have questions you may contact me at any time by email: smschnei@buffalo.edu or telephone : 518-728-1071.
+If you have questions you may contact me at any time by email: stephenschneider10@gmail.com or telephone : 518-728-1071.

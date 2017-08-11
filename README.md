@@ -2,19 +2,12 @@
 A classifier built to detect cancerous  pixels in large, microscopic tissue images.
 This directory consists of the following information:
 
--batchscript: 
-An example of a batch script to run script on the CCR may be useful to graduate students.
+batchscript.txt: An example of a batch script to run script on the CCR may be useful to graduate students.
 
--Bayes: 
-Script for Naive Bayes classification of tissue images with crossvalidation and ROC validation/evaluation.
-	-Main script is "bayesdetecionperf.m"
-	-mRMR_0.9_compiled: 
-	Directory for feature selection function (mrmr_mid_d.m)
+bayesdetectionperf.m: Main script for Naive Bayes classification of tissue images with crossvalidation and ROC validation/evaluation.
 
--Feature_extractions: 
-Images of 156 texture feature extractions from Case_3, Image 1 (S15-5979-A1-01.tif)
 
--Segmentation_methods:
+Segmentation_methods:
 Contains all segmentation methods researched. 
 	-Bipartite_script:
 	Contains all directories needed for script to work as well as three functions...

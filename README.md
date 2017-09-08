@@ -5,7 +5,7 @@ A classifier built to detect cancerous  pixels in large, microscopic tissue imag
 
 This directory consists of the following:
 
-batchscript.txt: An example of a batch script to run script on the CCR may be useful to graduate students.
+sbatchcode.txt: An example of a batch script to run script on the CCR may be useful to graduate students.
 
 bayesdetectionperf.m: Main script for naïve Bayes classification of tissue images with crossvalidation and ROC validation/evaluation.
 The other scripts provided are dependencies to this script.
